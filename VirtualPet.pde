@@ -5,9 +5,6 @@ void setup()
 void draw() 
 {
 
-  circle(160, 170, 40);
-  circle(240, 170, 40);
-
   fill(240, 106, 17); 
   ellipse(200, 200, 230, 200);
 
@@ -26,6 +23,9 @@ void draw()
 
   fill(5, 2, 0);  
   triangle(200, 230, 180, 200, 220, 200);
+
+  circle(160, 170, 40);
+  circle(240, 170, 40);
 
   circle(170, 240, 3);
   circle(180, 230, 3);
