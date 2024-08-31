@@ -24,14 +24,14 @@ void draw()
   fill(5, 2, 0);  
   triangle(200, 230, 180, 200, 220, 200);
 
-  circle(160, 170, 40);
-  circle(240, 170, 40);
+  ellipse(160, 170, 40, 40);
+  ellipse(240, 170, 40, 40);
 
-  circle(170, 240, 3);
-  circle(180, 230, 3);
-  circle(185, 240, 3);
-  circle(230, 240, 3);
-  circle(220, 230, 3);
-  circle(215, 240, 3);
+  ellipse(170, 240, 3, 3);
+  ellipse(180, 230, 3, 3);
+  ellipse(185, 240, 3, 3);
+  ellipse(230, 240, 3, 3);
+  ellipse(220, 230, 3, 3);
+  ellipse(215, 240, 3, 3);
 
 }
